@@ -16,7 +16,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 
 A set of utilities and patterns for building SAAS based applications with Nuxt
 
-- [✨ &nbsp;Release Notes](/CHANGELOG.md)
+<!-- - [✨ &nbsp;Release Notes](/CHANGELOG.md) -->
   <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/my-module?file=playground%2Fapp.vue) -->
   <!-- - [📖 &nbsp;Documentation](https://example.com) -->
 
