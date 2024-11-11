@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-saas-kit",
+  "name": "@nuxt-saas-kit/cli",
   "version": "1.0.0",
   "description": "My new Nuxt module",
   "repository": "your-org/my-module",
@@ -17,9 +17,6 @@
   "files": [
     "dist"
   ],
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "prepack": "nuxt-module-build build",
     "dev": "nuxi dev playground",
@@ -31,21 +28,8 @@
     "test:watch": "vitest watch",
     "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit"
   },
-  "dependencies": {
-    "@nuxt/kit": "^3.14.159"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@nuxt/devtools": "^1.6.0",
-    "@nuxt/eslint-config": "^0.6.1",
-    "@nuxt/module-builder": "^0.8.4",
-    "@nuxt/schema": "^3.14.159",
-    "@nuxt/test-utils": "^3.14.4",
-    "@types/node": "latest",
-    "changelogen": "^0.5.7",
-    "eslint": "^9.14.0",
-    "nuxt": "^3.14.159",
-    "typescript": "latest",
-    "vitest": "^2.1.4",
-    "vue-tsc": "^2.1.10"
+    "citty": "^0.1.6"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-saas-kit",
+  "name": "@nuxt-saas-kit/core",
   "version": "1.0.0",
   "description": "My new Nuxt module",
   "repository": "your-org/my-module",
@@ -16,9 +16,6 @@
   "types": "./dist/types.d.ts",
   "files": [
     "dist"
-  ],
-  "workspaces": [
-    "packages/*"
   ],
   "scripts": {
     "prepack": "nuxt-module-build build",
